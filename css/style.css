@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	color: seashell;
+	
+}
+html{
+	opacity: 0.9;
+}
+body{
+	background: #000000;
+	
+}
+header {
+
+	display: flex;
+	justify-content: space-between;
+	height: 69px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	width: 100%;
+	align-items: center;
+	background: #000000;
+}
+header .logo{
+	height: 50px;
+}
+
+header ul{
+	display: flex;
+}
+header ul  li{
+	list-style: none;
+}
+header ul  a{
+	margin-left: 30px;
+	font-size: 22px;
+}
+
+.ourMission {
+	padding-top: 69px;
+	display: flex;
+	width: 83%;
+	height: 769px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	background-image: url("../img/img-mission-background.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	align-items: center;
+}
+
+.ourMission .text{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	background: #000000;
+	align-content: space-between;
+	align-items: center;
+	padding: 10px 0 10px 0;
+}
+
+.ourMission .text h4{
+	margin-top: 10px;
+}
+
+.teaMonth {
+	margin-top: 25px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.teaMonth h4{
+	margin-top: 25px;
+}
+.teaMonth .divImgHolder {
+	margin-top: 25px;
+	/*min-height: 500px;*/
+	min-width: 1000px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+ 
+}
+.teaMonth .divImgHolder .imgHolder{
+	margin-top: 20px;
+	margin-left: 20px;
+	max-width: 300px;
+
+}
+figcaption{
+	margin-top: 10px;
+}
+.teaMonth .divImgHolder img{
+	height: 200px;
+	width: 300px;
+
+}
+.locations {
+	margin-top: 69px;
+	padding-top: 69px;
+	display: flex;
+	width: 83%;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	background-image: url("../img/img-locations-background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.locations .divLocHolder{
+	margin-top: 15px;
+	width: 980px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.locHolder{
+	width: 300px;
+	background: #000000;
+	text-align: center;
+	line-height: 50px;
+}
+footer{
+	margin-top: 15px;
+}
+footer .inf{
+	height: 200px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+footer .inf a{
+	text-decoration: none;
+}
+
+.copyright{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
