@@ -45,7 +45,7 @@ header ul  a{
 	padding-top: 69px;
 	display: flex;
 	width: 83%;
-	height: 769px;
+	height: 769px;	
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ffffff;
@@ -56,62 +56,70 @@ header ul  a{
 	align-content: center;
 	align-items: center;
 }
-
 .ourMission .text{
 	width: 100%;
-	height: 80px;
-	display: flex;
-	flex-direction: column;
+	min-height: 80px;
 	background: #000000;
-	align-content: space-between;
+	text-align: center;
+	display: flex;
+	flex-direction: column;	
+	justify-content: space-between;
 	align-items: center;
-	padding: 10px 0 10px 0;
+}
+.ourMission .text h2{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .ourMission .text h4{
-	margin-top: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .teaMonth {
 	margin-top: 25px;
-	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
+
 .teaMonth h4{
 	margin-top: 25px;
 }
-.teaMonth .divImgHolder {
-	margin-top: 25px;
-	/*min-height: 500px;*/
-	min-width: 1000px;
+.divImgHolder{
+	max-width: 1040px;
+	min-height: 300px;
+	margin-right: auto;
+	margin-left: auto;
 	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	flex-wrap: wrap;
- 
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-.teaMonth .divImgHolder .imgHolder{
-	margin-top: 20px;
-	margin-left: 20px;
-	max-width: 300px;
-
+		
+.imgHolder{
+	margin: 20px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
 }
-figcaption{
+	
+.imgHolder img{
+	width: 300px;
+	height: 200px;
+}
+.imgHolder figcaption{
 	margin-top: 10px;
 }
-.teaMonth .divImgHolder img{
-	height: 200px;
-	width: 300px;
 
-}
 .locations {
 	margin-top: 69px;
 	padding-top: 69px;
 	display: flex;
 	width: 83%;
-	height: 500px;
+	min-height: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ffffff;
@@ -119,23 +127,29 @@ figcaption{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	align-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-.locations .divLocHolder{
-	margin-top: 15px;
-	width: 980px;
 	display: flex;
-	justify-content: space-between;	
+	flex-direction: column;
+	align-items: center;
+
+}
+.divLocHolder{
+	margin-top: 15px;
+	max-width: 1020px;
+	display: flex;
+	justify-content: center;	
+	flex-wrap: wrap;
 }
 
 .locHolder{
+
+	margin: 20px;
 	width: 300px;
 	background: #000000;
 	text-align: center;
 	line-height: 50px;
+	color: white;
 }
+
 footer{
 	margin-top: 15px;
 }
